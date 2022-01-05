@@ -8,6 +8,8 @@ body {
 
 .App {
     font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
 }
 
 
@@ -20,4 +22,5 @@ body {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+
 }

@@ -5,9 +5,6 @@ import styled from "styled-components";
 const StyledLink = styled.div`
 & a{
     display: block;
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     text-decoration-line: underline;

@@ -2,16 +2,13 @@ import  React from "react";
 import styled from "styled-components";
 
 const ButtonStyled = styled.button`
-    font-style: normal;
-    font-weight: normal;
+
     font-size: 16px;
     line-height: 19px;
-
     cursor: pointer;
-    display: block;
     
     padding: 7px 22px 6px;
-    margin: 24px auto 18px;
+    margin: 24px 8px 18px;
     min-width: 160px;
     
     color: #FFFFFF;

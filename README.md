@@ -1,1 +1,6 @@
-Cars web-shop application
+Cars web-shop application:
+
+* React
+* TypeScript
+* React-router-dom (v5 \ v6)
+* Styled-Components
