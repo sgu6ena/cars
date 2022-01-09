@@ -4,3 +4,4 @@ Cars web-shop application:
 * TypeScript
 * React-router-dom (v5 \ v6)
 * Styled-Components
+* Redux \ React-Redux \ Redux-Toolkit
