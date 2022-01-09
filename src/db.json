@@ -1,0 +1,305 @@
+
+{
+  "cars": [
+    {
+      "id": 0,
+      "createdAt": "2021-03-26T09:33:25.109Z",
+      "title": "Fantastic Soft Gloves",
+      "text": "Aliquid facilis consequuntur ipsam dolor soluta aut voluptatibus. Nulla deleniti reprehenderit. Non minus maiores ipsum eveniet est iure magni enim ut. Necessitatibus adipisci sunt. Nesciunt fuga voluptates repellat et numquam. Enim est nulla veniam eum est consequatur et est eius.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 56300,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "maroon",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 95000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "дизель",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2014,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "createdAt": "2021-06-16T06:34:49.779Z",
+      "title": "Fantastic Granite Gloves",
+      "text": "Quaerat exercitationem temporibus ullam ipsum. Voluptatibus omnis nihil. Id voluptatibus debitis animi reiciendis dignissimos ut mollitia sunt. Accusantium atque ipsum quam voluptas ut voluptatem. Facere aliquid magni nostrum ut sunt error. Sint nulla incidunt.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 88600,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "orange",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 595000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "электро",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2010,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "createdAt": "2021-03-26T02:43:54.525Z",
+      "title": "Handcrafted Cotton Shirt",
+      "text": "Enim odit qui sit nam molestias nam quo dolores distinctio. Commodi doloribus earum saepe. Similique architecto fugit velit. Omnis velit quam hic nobis itaque molestias.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 82600,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "red",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 187000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "электро",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2012,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "createdAt": "2021-04-13T21:55:35.843Z",
+      "title": "Tasty Steel Fish",
+      "text": "Quia eos qui in laudantium odit consequatur qui nisi. Minus ipsam rerum. Aut dolore ut fugit sequi. Alias explicabo sit cumque rem quia. Possimus et aut voluptatem quia qui mollitia.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 99400,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "mint green",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 486000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "газ",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2014,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "createdAt": "2021-03-28T01:09:37.987Z",
+      "title": "Fantastic Frozen Sausages",
+      "text": "Occaecati iusto ea beatae voluptas sed culpa repellat quidem. Id nulla quo harum quam suscipit. Et pariatur dolorem repudiandae libero necessitatibus facilis aut culpa.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 81500,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "azure",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 593000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "дизель",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2019,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "createdAt": "2021-04-08T11:02:06.542Z",
+      "title": "Licensed Cotton Soap",
+      "text": "Minus amet cumque. Ratione molestiae quidem est ullam. Laboriosam consequatur ex error minima occaecati sit. Illo vel et cumque veniam voluptatum. Rerum minus quod eligendi.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 53900,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "cyan",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 210000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "дизель",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2010,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "createdAt": "2021-03-14T20:10:23.036Z",
+      "title": "Generic Granite Shirt",
+      "text": "Sit magni assumenda. Amet aut autem sequi voluptas est maxime. Reprehenderit fugiat beatae fugit necessitatibus aperiam reprehenderit et. Voluptas fuga alias facere. Assumenda in similique nobis reiciendis non ea at praesentium in. Placeat doloribus nulla qui nulla dignissimos.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 66200,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "blue",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 508000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "электро",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2016,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "createdAt": "2021-02-22T06:27:25.607Z",
+      "title": "Gorgeous Wooden Chips",
+      "text": "Necessitatibus suscipit aspernatur. Rerum et earum omnis velit asperiores ducimus aliquid quia minima. Vel et et optio voluptatem voluptatem quos deleniti. Iure minus ex dignissimos eos eveniet.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 84500,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "tan",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 621000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "электро",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2019,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "createdAt": "2021-01-11T19:38:54.869Z",
+      "title": "Ergonomic Cotton Shoes",
+      "text": "Enim nulla velit dolor voluptatum dolorum a et maiores iste. Rerum minima velit quae laudantium mollitia. Quae non eaque sint non pariatur enim dolorum.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 70400,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "teal",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 346000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "газ",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2014,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "createdAt": "2021-02-28T16:26:11.849Z",
+      "title": "Sleek Concrete Pants",
+      "text": "Aut voluptatum sunt ipsum. Qui ut reprehenderit animi porro eos quibusdam. Quas recusandae a aperiam veniam odio rerum. Dolorem laborum consectetur hic distinctio quis nobis molestias nulla. Dolor ea inventore.",
+      "image": "https://loremflickr.com/320/240/car",
+      "price": 15600,
+      "properties": [
+        {
+          "name": "цвет",
+          "value": "blue",
+          "type": "string"
+        },
+        {
+          "name": "пробег",
+          "value": 970000,
+          "type": "string"
+        },
+        {
+          "name": "топливо",
+          "value": "газ",
+          "type": "dropdown"
+        },
+        {
+          "name": "год",
+          "value": 2019,
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
