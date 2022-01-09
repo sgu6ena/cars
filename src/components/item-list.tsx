@@ -112,8 +112,6 @@ const ItemList = () => {
             {error}
             {loading}
             {data}
-
-
         </ItemListStyled>
     )
 }

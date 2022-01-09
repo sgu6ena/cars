@@ -50,7 +50,9 @@ const ItemCard = ({}) => {
         repos: {
             title: '',
             year: '',
-            text: ''
+            text: '',
+            price: '',
+            properties: [{name: '', value: ''}]
         }
     });
 
@@ -59,7 +61,7 @@ const ItemCard = ({}) => {
         api.getCar(params.id)
             .then(car => setAppState({loading: false, repos: car}))
             // @ts-ignore
-            .catch(()=>setAppState({loading: false, repos: null }));
+            .catch(() => setAppState({loading: false, repos: null}));
     }, [setAppState]);
 
     const data = appState.loading ? null : (
@@ -71,14 +73,17 @@ const ItemCard = ({}) => {
                     <p>{appState.repos.text} </p>
                 </Info>
             </Flex>
-            <PropertyInfo title={'Год выпуска'} value={appState.repos.year.toString()}/>
-            <PropertyInfo title={'Тип топлива'} value={'бензин'}/>
-            <Button text={"Беру!!!"}/>
+            {appState.repos.properties
+                .map(property => <PropertyInfo title={property.name} value={property.value}/>)}
+            <Flex justify={'space-between'} align={'baseline'}>
+                <h4>Цена: {appState.repos.price}$</h4>
+                <Button text={"Беру!!!"}/>
+            </Flex>
         </>
     )
 
-    const loading = appState.loading ? <Spinner /> : null;
-    const error = !appState.loading && !appState.repos ? <ErrorMessage /> : null;
+    const loading = appState.loading ? <Spinner/> : null;
+
 
     return (
         <ItemCardStyled>
@@ -87,7 +92,6 @@ const ItemCard = ({}) => {
             <ErrorBoundary>
                 {data}
                 {loading}
-                {error}
             </ErrorBoundary>
 
         </ItemCardStyled>
